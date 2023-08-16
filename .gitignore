@@ -1,0 +1,35 @@
+*.svg
+*.jpg
+
+.DS_Store
+*.idea*
+
+# Python
+.ipynb_checkpoints
+*.coverage
+*egg*
+__pycache__
+
+# LaTeX
+.auctex-auto
+*.aux
+*.bbl
+*.blg
+*.out
+*.log
+*.snm
+*.toc
+*.fdb_latexmk
+*.fls
+
+*.gz
+*.pdf
+
+.hydra
+outputs/
+wandb/
+multirun/
+code/experiments/data/uci/
+tmp/
+raw.githubusercontent.com/
+final_outputs/
