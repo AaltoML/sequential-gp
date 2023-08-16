@@ -1,0 +1,17 @@
+seed: null
+
+defaults:
+  - model: sgpr
+  - dataset: magnetometer
+  - optimizer: scipy
+
+optimize:
+  _partial_: true
+  _target_: uci.uci_utils.optimize_streaming_model
+  iterations: 20000
+  task: "regression"
+
+wandb:
+  username: null
+
+n_inducing_variable: 100

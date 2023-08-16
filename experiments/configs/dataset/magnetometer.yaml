@@ -1,0 +1,4 @@
+dataloader:
+  _partial_: true
+  _target_: magnetometer_utils.load_data
+  main_dir: "../data/invensense"

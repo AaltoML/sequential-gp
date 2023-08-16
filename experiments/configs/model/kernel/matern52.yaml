@@ -1,0 +1,3 @@
+_target_: gpflow.kernels.Matern52
+lengthscales: 1.
+variance: 1.

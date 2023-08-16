@@ -1,0 +1,2 @@
+_target_: tensorflow.optimizers.Adam
+learning_rate: 0.01

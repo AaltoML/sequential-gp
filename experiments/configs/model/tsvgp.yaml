@@ -1,0 +1,12 @@
+defaults:
+  - kernel: matern52
+  - likelihood: gaussian
+
+_target_: src.models.tsvgp_white.t_SVGP_white
+inducing_variable:
+  _target_: numpy.ones
+  shape:
+    - ${n_inducing_variable}
+    - ${dataset.input_dim}
+num_data: ???
+num_latent_gps: ${num_latent_gps}

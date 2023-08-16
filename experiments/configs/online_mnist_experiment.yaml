@@ -1,0 +1,31 @@
+seed: null
+
+defaults:
+  - model: tsvgp_continual_classification
+  - optimizer: adam
+  - dataset: split_mnist
+
+online_gp:
+  _partial_: true
+  _target_: src.models.tsvgp_cont.OnlineGP
+  n_steps: 10
+  lambda_lr: 0.1
+  num_mem: 400
+
+memory_picker:
+  _partial_: true
+  _target_: src.models.tsvgp_cont.memory_picker
+
+optimize:
+  _partial_: true
+  _target_: mnist_utils.optimize_online_model_minibatch
+  minibatch_size: 4000
+  train_hyper: True
+  train_mem: True
+  n_hyp_opt_steps: 50
+
+wandb:
+  username: null
+
+n_inducing_variable: 300
+num_classes: 10

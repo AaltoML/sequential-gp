@@ -1,0 +1,12 @@
+defaults:
+  - kernel: matern52
+
+_target_: gpflow.models.SGPR
+_partial_: true
+noise_variance: 1.0
+
+inducing_variable:
+  _target_: numpy.ones
+  shape:
+    - ${n_inducing_variable}
+    - ${dataset.input_dim}

@@ -1,0 +1,23 @@
+seed: null
+
+defaults:
+  - model: tsvgp
+  - dataset: bike
+  - optimizer: adam
+
+wandb:
+  username: null
+
+optimize:
+  _partial_: true
+  _target_: exp_utils.optimize_full_model
+  minibatch_size: 200
+  iterations: 2000
+  lambda_lr: 0.8
+  debug: True
+
+n_inducing_variable: 100
+
+load_model_path: null
+num_classes: ${dataset.num_classes}
+num_latent_gps: 1

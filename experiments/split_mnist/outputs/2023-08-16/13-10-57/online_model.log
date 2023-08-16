@@ -1,0 +1,118 @@
+[2023-08-16 13:11:20,831][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:11:20,831][__main__][INFO] - Starting split mnist experiment with seed=5
+[2023-08-16 13:11:20,831][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:11:20,831][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:11:20,831][__main__][INFO] - Task 0
+[2023-08-16 13:11:20,831][__main__][INFO] - Train data are 11824 and test data are 2956
+[2023-08-16 13:11:20,831][__main__][INFO] - Splitting data into sets...
+[2023-08-16 13:16:31,797][root][INFO] - NLPD after the task is 1.3804713052465931
+[2023-08-16 13:16:31,798][root][INFO] - Accuracy after the task is 0.959742895805142
+
+
+[2023-08-16 13:16:31,798][root][INFO] - NLPD on all tasks:
+
+[2023-08-16 13:16:32,017][root][INFO] - NLPD on task 0 is 1.3852189736691258
+[2023-08-16 13:16:32,017][root][INFO] - Accuracy on task 0 is 0.9617726657645467
+
+
+[2023-08-16 13:16:32,019][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:16:32,020][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:16:32,020][__main__][INFO] - Task 1
+[2023-08-16 13:16:32,020][__main__][INFO] - Train data are 11304 and test data are 2827
+[2023-08-16 13:16:32,020][__main__][INFO] - Splitting data into sets...
+[2023-08-16 13:21:26,608][root][INFO] - NLPD after the task is 5.236414291959189
+[2023-08-16 13:21:26,609][root][INFO] - Accuracy after the task is 0.4680961438699637
+
+
+[2023-08-16 13:21:26,609][root][INFO] - NLPD on all tasks:
+
+[2023-08-16 13:21:26,874][root][INFO] - NLPD on task 1 is 0.1335553282494436
+[2023-08-16 13:21:26,874][root][INFO] - Accuracy on task 1 is 0.9582596391934913
+
+
+[2023-08-16 13:21:27,200][root][INFO] - NLPD on task 0 is 10.124250770259678
+[2023-08-16 13:21:27,200][root][INFO] - Accuracy on task 0 is 0.0
+
+
+[2023-08-16 13:21:27,203][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:21:27,203][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:21:27,203][__main__][INFO] - Task 2
+[2023-08-16 13:21:27,203][__main__][INFO] - Train data are 10509 and test data are 2628
+[2023-08-16 13:21:27,203][__main__][INFO] - Splitting data into sets...
+[2023-08-16 13:26:10,768][root][INFO] - NLPD after the task is 17.14150938449856
+[2023-08-16 13:26:10,769][root][INFO] - Accuracy after the task is 0.3397931280466056
+
+
+[2023-08-16 13:26:10,769][root][INFO] - NLPD on all tasks:
+
+[2023-08-16 13:26:10,957][root][INFO] - NLPD on task 2 is 0.043325362953955684
+[2023-08-16 13:26:10,957][root][INFO] - Accuracy on task 2 is 0.9859208523592086
+
+
+[2023-08-16 13:26:11,158][root][INFO] - NLPD on task 1 is 7.499495397932489
+[2023-08-16 13:26:11,159][root][INFO] - Accuracy on task 1 is 0.09798372833392288
+
+
+[2023-08-16 13:26:11,370][root][INFO] - NLPD on task 0 is 41.55268915675283
+[2023-08-16 13:26:11,370][root][INFO] - Accuracy on task 0 is 0.0
+
+
+[2023-08-16 13:26:11,372][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:26:11,372][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:26:11,372][__main__][INFO] - Task 3
+[2023-08-16 13:26:11,372][__main__][INFO] - Train data are 11335 and test data are 2834
+[2023-08-16 13:26:11,372][__main__][INFO] - Splitting data into sets...
+[2023-08-16 13:31:15,529][root][INFO] - NLPD after the task is 33.88515166722869
+[2023-08-16 13:31:15,530][root][INFO] - Accuracy after the task is 0.3721654068474878
+
+
+[2023-08-16 13:31:15,530][root][INFO] - NLPD on all tasks:
+
+[2023-08-16 13:31:15,737][root][INFO] - NLPD on task 3 is 0.009760746132431454
+[2023-08-16 13:31:15,737][root][INFO] - Accuracy on task 3 is 0.9982357092448836
+
+
+[2023-08-16 13:31:15,939][root][INFO] - NLPD on task 2 is 1.4451709603231029
+[2023-08-16 13:31:15,939][root][INFO] - Accuracy on task 2 is 0.5178843226788432
+
+
+[2023-08-16 13:31:16,141][root][INFO] - NLPD on task 1 is 37.0476873502119
+[2023-08-16 13:31:16,141][root][INFO] - Accuracy on task 1 is 0.0
+
+
+[2023-08-16 13:31:16,352][root][INFO] - NLPD on task 0 is 92.22924259903165
+[2023-08-16 13:31:16,353][root][INFO] - Accuracy on task 0 is 0.0
+
+
+[2023-08-16 13:31:16,355][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:31:16,355][__main__][INFO] - ---------------------------------------------
+[2023-08-16 13:31:16,355][__main__][INFO] - Task 4
+[2023-08-16 13:31:16,355][__main__][INFO] - Train data are 11026 and test data are 2757
+[2023-08-16 13:31:16,355][__main__][INFO] - Splitting data into sets...
+[2023-08-16 13:36:13,663][root][INFO] - NLPD after the task is 57.01947382842054
+[2023-08-16 13:36:13,665][root][INFO] - Accuracy after the task is 0.26889015854877873
+
+
+[2023-08-16 13:36:13,665][root][INFO] - NLPD on all tasks:
+
+[2023-08-16 13:36:13,871][root][INFO] - NLPD on task 4 is 0.06384766118157943
+[2023-08-16 13:36:13,871][root][INFO] - Accuracy on task 4 is 0.9782372143634385
+
+
+[2023-08-16 13:36:14,078][root][INFO] - NLPD on task 3 is 3.1617283041013096
+[2023-08-16 13:36:14,078][root][INFO] - Accuracy on task 3 is 0.37155963302752293
+
+
+[2023-08-16 13:36:14,264][root][INFO] - NLPD on task 2 is 10.14957287432521
+[2023-08-16 13:36:14,264][root][INFO] - Accuracy on task 2 is 0.0045662100456621
+
+
+[2023-08-16 13:36:14,467][root][INFO] - NLPD on task 1 is 98.35603966700369
+[2023-08-16 13:36:14,467][root][INFO] - Accuracy on task 1 is 0.0
+
+
+[2023-08-16 13:36:14,680][root][INFO] - NLPD on task 0 is 163.90897838734685
+[2023-08-16 13:36:14,680][root][INFO] - Accuracy on task 0 is 0.0
+
+
+[2023-08-16 13:36:14,687][__main__][INFO] - ---------------------------------------------

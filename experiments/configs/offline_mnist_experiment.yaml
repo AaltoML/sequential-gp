@@ -1,0 +1,21 @@
+seed: null
+
+defaults:
+  - model: svgp
+  - optimizer: adam
+  - dataset: mnist
+  - override model/likelihood: softmax
+
+optimize:
+  _partial_: true
+  _target_: exp_utils.optimize_full_model
+  minibatch_size: 4000
+  iterations: 1000
+  debug: true
+
+wandb:
+  username: null
+
+n_inducing_variable: 300
+num_classes: 10
+num_latent_gps: ${num_classes}

@@ -1,0 +1,4 @@
+_target_: gpflow.kernels.Sum
+kernels:
+  - _target_: gpflow.kernels.Constant
+  - _target_: gpflow.kernels.Matern52

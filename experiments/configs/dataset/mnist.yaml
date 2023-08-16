@@ -1,0 +1,5 @@
+input_dim: 784
+output_dim: 1
+dataloader:
+  _target_: mnist_utils.load_mnist
+  seed: ${seed}

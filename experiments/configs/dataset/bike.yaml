@@ -1,0 +1,11 @@
+input_dim: 17
+output_dim: 1
+dataloader:
+  _target_: uci_utils.load_data
+  normalize: true
+  train_split_percentage: 0.8
+  data_path: "../data/bike.csv"
+  seed: ${seed}
+  n_k_folds: null
+  random_state: null
+  dataset_type: "regression"

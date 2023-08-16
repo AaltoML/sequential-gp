@@ -1,0 +1,20 @@
+seed: null
+
+defaults:
+  - model: svgp
+  - dataset: split_mnist
+  - optimizer: adam
+  - override model/likelihood: softmax
+
+optimize:
+  _partial_: true
+  _target_: mnist_utils.optimize_streaming_model_minibatch
+  iterations: 100
+  minibatch_size: 4000
+
+wandb:
+  username: null
+
+n_inducing_variable: 300
+num_classes: 10
+num_latent_gps: 10

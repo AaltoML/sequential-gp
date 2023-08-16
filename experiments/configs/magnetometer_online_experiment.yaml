@@ -1,0 +1,28 @@
+seed: null
+
+defaults:
+  - model: tsvgp_continual
+  - dataset: magnetometer
+  - optimizer: adam
+
+online_gp:
+  _partial_: true
+  _target_: src.models.tsvgp_cont.OnlineGP
+  n_steps: 2
+  lambda_lr: 0.9
+  num_mem: 100
+
+optimize:
+  _partial_: true
+  _target_: exp_utils.optimize_online_model
+  train_hyperparams: True
+  hyperparams_step: 20000
+  train_memory: True
+  debug: True
+
+wandb:
+  username: null
+
+n_inducing_variable: 100
+num_latent_gps: 1
+streaming: false

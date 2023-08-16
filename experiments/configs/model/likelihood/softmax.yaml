@@ -1,0 +1,2 @@
+_target_: gpflow.likelihoods.Softmax
+num_classes: ${num_classes}

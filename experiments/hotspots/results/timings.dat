@@ -1,0 +1,4 @@
+Random                       :   7.23 +/- 0.03 (std.err) +/- 2.30 (std.dev)
+Entropy (OVC)                :  84.57 +/- 0.15 (std.err) +/- 10.77 (std.dev)
+Entropy (Ours)               :  62.09 +/- 0.10 (std.err) +/- 6.75 (std.dev)
+

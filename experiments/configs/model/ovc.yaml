@@ -1,0 +1,6 @@
+_target_: volatilitygp.models.SingleTaskVariationalGP
+_partial_: true
+
+num_inducing: ${n_inducing_variable}
+use_piv_chol_init: false
+learn_inducing_locations: false

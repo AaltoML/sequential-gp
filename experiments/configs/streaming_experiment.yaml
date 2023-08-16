@@ -1,0 +1,22 @@
+seed: null
+
+defaults:
+  - model: sgpr
+  - dataset: bike
+  - optimizer: scipy
+
+optimize:
+  _partial_: true
+  _target_: uci_utils.optimize_streaming_model
+  iterations: 20
+  task: "regression"
+
+wandb:
+  username: null
+
+n_sets: 10
+n_inducing_variable: 100
+sort_data: true
+
+load_model_path: null
+num_latent_gps: 1

@@ -1,0 +1,19 @@
+seed: null
+
+defaults:
+  - model: svgp
+  - dataset: magnetometer
+  - optimizer: adam
+
+optimize:
+  _partial_: true
+  _target_: exp_utils.optimize_full_model
+  minibatch_size: 500
+  iterations: 20000
+  lambda_lr: 0.8
+
+wandb:
+  username: null
+
+n_inducing_variable: 100
+num_latent_gps: 1

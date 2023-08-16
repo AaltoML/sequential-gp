@@ -1,0 +1,32 @@
+seed: null
+
+defaults:
+  - model: tsvgp_continual
+  - dataset: bike
+  - optimizer: adam
+
+online_gp:
+  _partial_: true
+  _target_: src.models.tsvgp_cont.OnlineGP
+  n_steps: 4
+  lambda_lr: 0.8
+  num_mem: 10
+  memory_picker: "bls"
+
+optimize:
+  _partial_: true
+  _target_: exp_utils.optimize_online_model
+  train_hyperparams: true
+  hyperparams_step: 20
+  train_memory: true
+
+wandb:
+  username: null
+
+n_sets: 10
+sort_data: True
+n_inducing_variable: 100
+
+load_model_path: null
+num_classes: ${dataset.num_classes}
+num_latent_gps: 1

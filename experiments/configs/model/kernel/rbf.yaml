@@ -1,0 +1,3 @@
+_target_: gpflow.kernels.RBF
+lengthscales: 1.
+variance: 1.

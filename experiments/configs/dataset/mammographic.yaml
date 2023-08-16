@@ -1,0 +1,13 @@
+input_dim: 6
+output_dim: 1
+num_classes: 2
+
+dataloader:
+  _target_: uci_utils.load_data
+  normalize: true
+  train_split_percentage: 0.8
+  data_path: "../data/mammographic.csv"
+  seed: ${seed}
+  n_k_folds: null
+  random_state: null
+  dataset_type: "classification"
